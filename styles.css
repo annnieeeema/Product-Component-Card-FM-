@@ -1,0 +1,21 @@
+body { 
+    background-color: rgb(164, 184, 149); 
+}
+.box {
+    display: flex;
+    padding: 40px; 
+}
+img {
+    max-width: 250px;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+.product-info {
+    background-color: white;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    padding: 25px; 
+}
+h1{
+    font-family: 'Fraunces', serif;
+}

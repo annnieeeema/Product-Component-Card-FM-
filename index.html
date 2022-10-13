@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/heart.png">
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -13,24 +13,40 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
+  <div class="box">
+    
+    <div class="product-image">
+      <img src="images/product-image.png" alt="Product Image">
+    </div>
+    <div class="product-info">
+      <p style="font-family: 'Montserrat', sans-serif;">E Y E &nbsp C R E A M</p>
+      <!-- &nbsp enters a space b/w words -->
 
-  Preview
+      <h1>Glow Recipe Avocado Melt Retinol Eye Cream</h1>
 
-  Gabrielle Essence Eau De Parfum
+      <p style="font-family: 'Montserrat', sans-serif;">Best-selling eye cream with encapsulated retinol, avocado & coffeeberry to visibly firm, smooth fine lines around the eye area, and reduce the appearance of dark circles.</p>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+      <h1 style=" color: rgb(61, 128, 104); display: inline;">$39.90</h1> 
+      <s style=" display: inline; "> &nbsp $42.00</s>
+      <!-- by using display: inline in both tags, this allows for the text to be displayed on the same line -->
 
-  $149.99
-  $169.99
+      <p>Add to Cart</p>
+    </div>
+  </div>
 
-  Add to Cart
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Annie Ma</a>.
+    <br/>
+    Github info, linkedin info 
   </div>
 </body>
 </html>
